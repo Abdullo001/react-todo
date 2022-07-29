@@ -1,4 +1,5 @@
 import { useState } from "react";
+// import{FontAwesomeIcon}from "../node_modules/font-awesome"
 import "./App.scss";
 import ListItem from "./components/List/ListItem";
 
