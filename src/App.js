@@ -15,6 +15,7 @@ function App() {
 
   return (
     <div className="container mt-5">
+      <h1 className="text-center mb-4">My To do list</h1>
       <div className="inner">
         <form
           onSubmit={(evt) => {
@@ -29,7 +30,7 @@ function App() {
             ]);
           }}
         >
-          <input type={"text"} />
+          <input type={"text"} className="form-control" />
         </form>
 
         {todo.forEach((e)=>{
@@ -38,7 +39,7 @@ function App() {
           console.log(e);
         })}
 
-        <ul className="list-unstyled">
+        <ul className="list-unstyled w-75">
 
           {todo.map((e) => (
             
