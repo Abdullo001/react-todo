@@ -26,7 +26,7 @@ function App() {
   todo.filter((e)=>{
     e.id=count;
     count++;
-    
+    return count
   })
 
   window.localStorage.setItem("Todos",JSON.stringify(todo));
